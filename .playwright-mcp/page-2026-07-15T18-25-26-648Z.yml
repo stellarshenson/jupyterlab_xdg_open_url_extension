@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - navigation "Top Menu" [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: /user/konrad.jelen/lab
+        - img "Jupyter Notebook" [ref=e6]
+      - link "Control Panel" [ref=e8] [cursor=pointer]:
+        - /url: /hub/home
+  - generic [ref=e11]:
+    - 'heading "404 : Not Found" [level=1] [ref=e12]'
+    - paragraph [ref=e13]: You are requesting a page that does not exist!
