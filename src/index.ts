@@ -19,7 +19,7 @@ import { sendNotification } from './request';
 const OPEN_COMMAND = 'help:open';
 
 /**
- * Initialization data for the jupyterlab_xdg_open_url_extension extension.
+ * Initialization data for the @stellarshenson/jupyterlab-xdg-open-url-extension extension.
  *
  * Watches every terminal's output for the invisible OSC 6789 marker emitted by
  * `jlab-xdg-open <url>`, then launches a notification (via
@@ -27,14 +27,14 @@ const OPEN_COMMAND = 'help:open';
  * carrying an "Open" button that opens the URL via the built-in `help:open`.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab_xdg_open_url_extension:plugin',
+  id: '@stellarshenson/jupyterlab-xdg-open-url-extension:plugin',
   description:
     'Turn a terminal xdg-open into a JupyterLab notification with an Open button.',
   autoStart: true,
   requires: [ITerminalTracker],
   activate: (app: JupyterFrontEnd, tracker: ITerminalTracker) => {
     console.log(
-      'JupyterLab extension jupyterlab_xdg_open_url_extension is activated!'
+      'JupyterLab extension @stellarshenson/jupyterlab-xdg-open-url-extension is activated!'
     );
 
     const notify = async (url: string): Promise<void> => {

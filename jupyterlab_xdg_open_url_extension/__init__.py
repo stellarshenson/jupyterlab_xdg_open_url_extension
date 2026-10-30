@@ -12,5 +12,5 @@ except ImportError:
 def _jupyter_labextension_paths():
     return [{
         "src": "labextension",
-        "dest": "jupyterlab_xdg_open_url_extension"
+        "dest": "@stellarshenson/jupyterlab-xdg-open-url-extension"
     }]

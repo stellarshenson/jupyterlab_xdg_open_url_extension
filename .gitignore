@@ -129,6 +129,9 @@ dmypy.json
 
 .nodeenv/
 
+# Jest report, rewritten by every test run
+junit.xml
+
 # Campaign logs and scratch files
 logs/
 tmp/

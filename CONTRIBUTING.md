@@ -53,7 +53,7 @@ pip uninstall jupyterlab_xdg_open_url_extension
 
 In development mode, you will also need to remove the symlink created by `jupyter-builder develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `jupyterlab_xdg_open_url_extension` within that folder.
+folder is located. Then you can remove the symlink named `@stellarshenson/jupyterlab-xdg-open-url-extension` within that folder.
 
 ## Testing the extension
 

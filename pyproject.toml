@@ -51,8 +51,8 @@ artifacts = ["jupyterlab_xdg_open_url_extension/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"jupyterlab_xdg_open_url_extension/labextension" = "share/jupyter/labextensions/jupyterlab_xdg_open_url_extension"
-"install.json" = "share/jupyter/labextensions/jupyterlab_xdg_open_url_extension/install.json"
+"jupyterlab_xdg_open_url_extension/labextension" = "share/jupyter/labextensions/@stellarshenson/jupyterlab-xdg-open-url-extension"
+"install.json" = "share/jupyter/labextensions/@stellarshenson/jupyterlab-xdg-open-url-extension/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "jupyterlab_xdg_open_url_extension/_version.py"

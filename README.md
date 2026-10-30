@@ -1,7 +1,7 @@
 # jupyterlab_xdg_open_url_extension
 
 [![GitHub Actions](https://github.com/stellarshenson/jupyterlab_xdg_open_url_extension/actions/workflows/build.yml/badge.svg)](https://github.com/stellarshenson/jupyterlab_xdg_open_url_extension/actions/workflows/build.yml)
-[![npm version](https://img.shields.io/npm/v/jupyterlab_xdg_open_url_extension.svg)](https://www.npmjs.com/package/jupyterlab_xdg_open_url_extension)
+[![npm version](https://img.shields.io/npm/v/@stellarshenson/jupyterlab-xdg-open-url-extension.svg)](https://www.npmjs.com/package/@stellarshenson/jupyterlab-xdg-open-url-extension)
 [![PyPI version](https://img.shields.io/pypi/v/jupyterlab-xdg-open-url-extension.svg)](https://pypi.org/project/jupyterlab-xdg-open-url-extension/)
 [![Total PyPI downloads](https://static.pepy.tech/badge/jupyterlab-xdg-open-url-extension)](https://pepy.tech/project/jupyterlab-xdg-open-url-extension)
 [![JupyterLab 4](https://img.shields.io/badge/JupyterLab-4-orange.svg)](https://jupyterlab.readthedocs.io/en/stable/)

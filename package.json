@@ -1,6 +1,6 @@
 {
-    "name": "jupyterlab_xdg_open_url_extension",
-    "version": "0.1.6",
+    "name": "@stellarshenson/jupyterlab-xdg-open-url-extension",
+    "version": "0.1.7",
     "description": "Jupyterlab extension to handle xdg_open push from terminal such that it will launch notification (using jupyterlab_notifications_extension) with action to open that link and (if possible) that will allow for the callback to be handled",
     "keywords": [
         "jupyter",
