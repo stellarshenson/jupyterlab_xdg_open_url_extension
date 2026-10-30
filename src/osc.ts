@@ -13,6 +13,7 @@ export const OSC_CODE = 6789;
  * The payload runs up to the terminator (BEL or ESC); a URL never contains
  * a control character, so excluding ESC/BEL from the payload is safe.
  */
+// eslint-disable-next-line no-control-regex -- the OSC marker is made of control characters
 const OSC_RE = /\x1b\]6789;([^\x07\x1b]*)(?:\x07|\x1b\\)/g;
 
 /** Cap on the carried-over buffer, so a lone ESC with no terminator can't grow unbounded. */
