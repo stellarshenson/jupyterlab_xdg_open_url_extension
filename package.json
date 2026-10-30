@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab_xdg_open_url_extension",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Jupyterlab extension to handle xdg_open push from terminal such that it will launch notification (using jupyterlab_notifications_extension) with action to open that link and (if possible) that will allow for the callback to be handled",
     "keywords": [
         "jupyter",
@@ -56,17 +56,17 @@
         "watch:labextension": "jupyter-builder watch ."
     },
     "dependencies": {
-        "@jupyterlab/application": "^4.0.0",
-        "@jupyterlab/apputils": "^4.0.0",
-        "@jupyterlab/coreutils": "^6.0.0",
-        "@jupyterlab/services": "^7.0.0",
-        "@jupyterlab/terminal": "^4.0.0"
+        "@jupyterlab/application": "^4.6.0",
+        "@jupyterlab/apputils": "^4.7.0",
+        "@jupyterlab/coreutils": "^6.6.0",
+        "@jupyterlab/services": "^7.6.0",
+        "@jupyterlab/terminal": "^4.6.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.0.0",
-        "@jupyter/builder": "^1.0.0",
-        "@jupyter/eslint-plugin": "^0.0.5",
-        "@jupyterlab/testutils": "^4.0.0",
+        "@jupyter/builder": "^1.2.0",
+        "@jupyter/eslint-plugin": "^1.1.0",
+        "@jupyterlab/testutils": "^4.6.0",
         "@types/jest": "^29.2.0",
         "@types/json-schema": "^7.0.11",
         "@types/react": "^18.0.26",
@@ -76,7 +76,6 @@
         "eslint-plugin-prettier": "^5.0.0",
         "globals": "^15.0.0",
         "jest": "^29.2.0",
-        "mkdirp": "^1.0.3",
         "npm-run-all2": "^7.0.1",
         "prettier": "^3.0.0",
         "rimraf": "^5.0.1",
@@ -102,16 +101,6 @@
         "access": "public"
     },
     "jupyterlab": {
-        "discovery": {
-            "server": {
-                "managers": [
-                    "pip"
-                ],
-                "base": {
-                    "name": "jupyterlab_xdg_open_url_extension"
-                }
-            }
-        },
         "extension": true,
         "outputDir": "jupyterlab_xdg_open_url_extension/labextension"
     },
@@ -145,5 +134,8 @@
             "selector-no-vendor-prefix": null,
             "value-no-vendor-prefix": null
         }
+    },
+    "allowScripts": {
+        "@fortawesome/fontawesome-free@5.15.4": true
     }
 }

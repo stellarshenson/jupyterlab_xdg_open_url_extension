@@ -128,3 +128,7 @@ dmypy.json
 .yarn/
 
 .nodeenv/
+
+# Campaign logs and scratch files
+logs/
+tmp/

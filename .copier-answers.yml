@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: v4.6.2
+_commit: v4.6.5
 _src_path: https://github.com/jupyterlab/extension-template
 advanced: false
 author_email: konrad.jelen+github@gmail.com
@@ -7,7 +7,7 @@ author_name: Stellars Henson
 has_ai_rules: false
 has_binder: false
 has_settings: false
-kind: frontend-and-server
+kind: frontend
 labextension_name: jupyterlab_xdg_open_url_extension
 project_short_description: Jupyterlab extension to handle xdg_open push from terminal
     such that it will launch notification (using jupyterlab_notifications_extension)

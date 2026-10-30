@@ -22,7 +22,7 @@ It does one thing, quietly. Run `jlab-xdg-open <url>` in a terminal (or let any 
 
 ## Requirements
 
-- JupyterLab >= 4.0.0
+- JupyterLab >= 4.6
 - `jupyterlab_notifications_extension` (installed automatically as a dependency)
 
 ## Install

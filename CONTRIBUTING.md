@@ -17,12 +17,10 @@ The `jlpm` command is JupyterLab's pinned version of
 # Set up a virtual environment and install package in development mode
 python -m venv .venv
 source .venv/bin/activate
-pip install --editable ".[dev,test]"
+pip install --editable "."
 
 # Link your development version of the extension with JupyterLab
 jupyter-builder develop . --overwrite
-# Server extension must be manually installed in develop mode
-jupyter server extension enable jupyterlab_xdg_open_url_extension
 
 # Rebuild extension Typescript source after making changes
 # IMPORTANT: Unlike the steps above which are performed only once, do this step
@@ -50,8 +48,6 @@ jupyter lab build --minimize=False
 ## Development uninstall
 
 ```bash
-# Server extension must be manually disabled in develop mode
-jupyter server extension disable jupyterlab_xdg_open_url_extension
 pip uninstall jupyterlab_xdg_open_url_extension
 ```
 
@@ -60,24 +56,6 @@ command. To find its location, you can run `jupyter labextension list` to figure
 folder is located. Then you can remove the symlink named `jupyterlab_xdg_open_url_extension` within that folder.
 
 ## Testing the extension
-
-### Server tests
-
-This extension is using [Pytest](https://docs.pytest.org/) for Python code testing.
-
-Install test dependencies (needed only once):
-
-```sh
-pip install -e ".[test]"
-# Each time you install the Python package, you need to restore the front-end extension link
-jupyter-builder develop . --overwrite
-```
-
-To execute them, run:
-
-```sh
-pytest -vv -r ap --cov jupyterlab_xdg_open_url_extension
-```
 
 #### Frontend tests
 
