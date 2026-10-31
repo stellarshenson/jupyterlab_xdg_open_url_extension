@@ -2,6 +2,13 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## [0.1.11] - 2026-10-31
+
+### Changed
+
+- Format the journal entry with prettier
+- Require Python 3.12
+
 ## [0.1.10] - 2026-10-31
 
 ### Changed
